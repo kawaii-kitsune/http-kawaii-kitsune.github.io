@@ -107,7 +107,10 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="d-flex align-items-center mb-5">
                         <div class="years flex-shrink-0 text-center me-4">
-                            <h1 class="display-1 mb-0">3</h1>
+                            <h1 class="display-1 mb-0" id="yearsExperience"></h1>
+                            <script>
+                                document.getElementById('yearsExperience').innerText = new Date().getFullYear() - 2021;
+                            </script>
                             <h5 class="mb-0 mt-3">Years</h5>
                         </div>
                         <h3 class="lh-base mb-0">of working experience as a Full Stack developer</h3>
@@ -124,7 +127,7 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="d-flex align-items-center mb-5">
                         <div class="years flex-shrink-0 text-center me-4">
-                            <h1 class="display-1 mb-0">7</h1>
+                            <h1 class="display-1 mb-0">8</h1>
                             <h5 class="mb-0 mt-3">Years</h5>
                         </div>
                         <h3 class="lh-base mb-0">of studying in the field of Computer Engineering</h3>
@@ -282,7 +285,7 @@
                                 <div class="col-sm-6">
                                     <h5>Fullstack Developer</h5>
                                     <hr class="text-primary my-2">
-                                    <p class="text-primary mb-1">2023 - currently</p>
+                                    <p class="text-primary mb-1">2023 - 2025</p>
                                     <h6 class="mb-0">Adrestia R&D</h6>
                                 </div>
                             </div>
@@ -362,15 +365,15 @@
 
 
     <!-- Copyright Start -->
-    <div class="container-fluid bg-dark text-white py-4">
+    <div class="container-fluid bg-dark text-white py-4" >
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                     &copy; <a class="border-bottom text-secondary" href="#">Babis Kolokouris</a>, All Right Reserved.
                 </div>
-                <div class="col-md-6 text-center text-md-end">
+                <div class="col-md-6 text-center text-md-end"hidden>
                     <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                    Designed By <a class="border-bottom text-secondary" href="https://htmlcodex.com">HTML Codex</a>
+                    Designed By <a class="border-bottom text-secondary" href="https://htmlcodex.com" >HTML Codex</a>
                     <br>Distributed By: <a class="border-bottom" href="https://themewagon.com"
                         target="_blank">ThemeWagon</a>
                 </div>
